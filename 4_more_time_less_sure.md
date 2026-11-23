@@ -1,0 +1,4 @@
+# More time / less sure
+With more time, I would build out the PDF reader. Right now it relies on regular expression matching, so I would move it to an LLM-based extraction with the same JSON schema and validation checks. I would also want to test the signal on a larger dataset, both to see whether it holds and to try more sophisticated models.
+
+The results I'm least confident about are the ones tied to the small dataset. With only 25 issuers in each set, it's hard to be sure the signal is real rather than noise. Related to this, the 2024 vs 2025 split feels a little unjustified: there is no strong reason the two years should behave the same, and something like a shift in macro conditions could affect them differently, which could make the validation look better or worse than the signal really is.

@@ -1,0 +1,24 @@
+# Python 3.9+ (developed and tested on 3.9.5)
+# Reproduces the extraction pipeline (extraction/*.py) and the analysis notebook (1_code.ipynb).
+#
+# Create a fresh environment, then install:
+#   python -m venv .venv
+#   .venv\Scripts\activate         # Windows
+#   source .venv/bin/activate      # macOS / Linux
+#   pip install -r requirements.txt
+
+# --- extraction ---
+pdfplumber==0.11.8
+pdfminer.six==20251107     # pinned: drives PDF text extraction; version affects the text layer
+
+# --- data / analysis ---
+pandas==2.3.3
+numpy==2.0.2
+scipy==1.13.1
+
+# --- plotting ---
+matplotlib==3.9.4
+seaborn==0.13.2
+
+# --- notebook execution (1_code.ipynb) ---
+ipykernel==6.31.0

@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+
+# virtual environment — not portable, rebuild from requirements.txt
+.venv/
+
+# jupyter
+.ipynb_checkpoints/
+
+# confidential case data — not included in the public version
+presentations/
+keys/
+returns/
+extraction/raw_text/
+extraction/extracted.*
+extraction/validation_report.txt
+extraction/verification/ground_truth_sample.json
