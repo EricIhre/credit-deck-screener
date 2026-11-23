@@ -10,7 +10,9 @@
 | `4_more_time_less_sure.md` | Next steps and caveats. |
 | `5_Optional.md` | Optional deeper dive. |
 | `extraction/` | Extraction scripts and their outputs. |
-| `presentations/`, `keys/`, `returns/` | Source PDFs, ID map, returns. |
+
+> **Note:** The underlying data (source PDFs, ID map, returns) is confidential and not included,
+> so the pipeline and notebook won't run as-is. To run them, put the data in `presentations/`, `keys/` and `returns/`.
 
 ## Setup (Python 3.9+)
 
