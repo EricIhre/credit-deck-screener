@@ -1,4 +1,4 @@
-# Lender-presentation signal — code & analysis
+# Credit Deck Screener
 
 ## What's in this folder
 
